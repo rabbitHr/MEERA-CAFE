@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>MEERA Coffee Shop</title>
+</head>
+
+<body>
+
+    <!-- ==================HEADER&NAV======================= -->
+    <header class="header">
+        <div class="container split">
+            <a href="#home">
+                <img src="images/logo.png" alt="Logo" class="logo">
+            </a>
+            <h1 class="top-heading">MEERA Cafe</h1>
+            
+
+            <nav id="nav" class="nav">
+                <ul class="nav-list row">
+                    <li class="nav-link"><a href="#home">Home</a></li>
+                    <li class="nav-link"><a href="#about">About</a></li>
+                    <li class="nav-link"><a href="#menu">Menu</a></li>
+                    <li class="nav-link"><a href="#products">Products</a></li>
+                    <li class="nav-link"><a href="#review">Review</a></li>
+                    <li class="nav-link"><a href="#contact">Contact</a></li>
+                    <li class="nav-link"><a href="#blogs">Blogs</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-icons">
+                <i id="search-btn" class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                <i id="cart-shopping" class="fa-regular fa-cart-shopping"></i>
+                <i id="open-btn" class="fa-solid fa-bars"></i>
+            </div>
+            
+         
+                <label class="search_inp">
+                    <input type="search" class="search_bar" placeholder="Search...">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </label>
+
+                <div class="shopping-cart">
+                    <div class="items">
+                        <h2>You haven't Any Item</h2>
+                    </div>
+
+                    <button class="btn check-items">Checkout Now</button>
+                </div>
+   
+        </div>
+    </header>
+
+    <!-- ==================MAIN======================= -->
+    <div id="home" class="main split">
+        <div class="container">
+            <div class="main-text">
+                <h1>Fresh Coffee for Every Moment</h1>
+                <p>At Meera Cafe, we are passionate about delivering the best coffee experience to start your day on the right note. Whether you need a strong espresso or a sweet latte, our freshly brewed coffee brings joy to every sip.</p>
+                <button class="btn">Get Yours Now</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ==================ABOUT SECTION======================= -->
+
+    <section class="section about" id="about">
+        <div class="container">
+            <h1 class="text-center sect-head">
+                <span>About</span> us
+            </h1>
+            <div class="row">
+                <img src="images/about-img.jpeg" alt="about-img" class="about-img col-50">
+                <div class="about-content col-48">
+                    <h2>What Makes Our Coffee Special?</h2>
+                    <p>At Meera Cafe, every cup of coffee is a celebration of flavor, craftsmanship, and care. We believe that the perfect cup begins with the best ingredients and an unwavering commitment to excellence. With ethically sourced beans and sustainable brewing methods, our coffee is not only delicious but also environmentally conscious.</p>
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ==================OUR MENU SECTION======================= -->
+    <section class="section menu" id="menu">
+        <div class="container">
+            <h1 class="text-center sect-head">
+                our <span>menu</span>
+            </h1>
+            <div class="grid cards">
+                <div class="card text-center">
+                    <img src="images/menu-1.png" alt="" class="card-img">
+                    <h4>Classic Espresso</h4>
+                    <p>₹159 <del>₹209</del></p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="card text-center">
+                    <img src="images/menu-2.png" alt="" class="card-img">
+                    <h4>Latte with Vanilla</h4>
+                    <p>₹199 <del>₹299</del></p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="card text-center">
+                    <img src="images/menu-3.png" alt="" class="card-img">
+                    <h4>Cappuccino Delight</h4>
+                    <p>₹150 <del>₹399</del></p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="card text-center">
+                    <img src="images/menu-4.png" alt="" class="card-img">
+                    <h4>Mocha Magic</h4>
+                    <p>₹320 <del>₹299</del></p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="card text-center">
+                    <img src="images/menu-5.png" alt="" class="card-img">
+                    <h4>Caramel Macchiato</h4>
+                    <p>₹200<del>₹249</del></p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+                <div class="card text-center">
+                    <img src="images/menu-6.png" alt="" class="card-img">
+                    <h4>Cold Brew Coffee</h4>
+                    <p>₹159 <del>₹290</del></p>
+                    <button class="btn">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==================LATEST PRODUCTS SECTION================== -->
+    <section class="section products" id="products">
+        <div class="container">
+            <h1 class="text-center sect-head">
+                latest <span>products</span>
+            </h1>
+
+            <div class="grid cards product-cards" id="product-cards">
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+    
+    <!-- ==================CUSTOMER'S REVIEW SECTION======================= -->
+    <section class="section review" id="review">
+        <div class="container">
+            <h1 class="text-center sect-head">
+                customer's <span>review</span>
+            </h1>
+
+            <div class="grid cards review">
+                <div class="card text-center">
+                    <i class="fa-solid fa-comment-dots"></i>
+                    <p>Meera Cafe serves the most delightful coffee I've ever had. Their customer service is excellent, and I love the cozy ambiance!</p>
+                    <img src="images/pic-1.png" alt="pic-1" class="card-img">
+                    <h2>SHYAM SINGH</h2>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                </div>
+                <div class="card text-center">
+                    <i class="fa-solid fa-comment-dots"></i>
+                    <p>Every time I visit, the coffee tastes even better. The flavors are unique, and I always look forward to trying something new from their menu.</p>
+                    <img src="images/pic-2.png" alt="pic-1" class="card-img">
+                    <h2>ASHI SINGH</h2>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                </div>
+                <div class="card text-center">
+                    <i class="fa-solid fa-comment-dots"></i>
+                    <p>The aroma and freshness of the coffee at Meera Cafe are unbeatable. It’s my go-to spot to relax and enjoy a well-crafted cup of coffee.</p>
+                    <img src="images/pic-3.png" alt="pic-1" class="card-img">
+                    <h2>KANNU SINGH</h2>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
